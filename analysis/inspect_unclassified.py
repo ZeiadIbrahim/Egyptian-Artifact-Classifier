@@ -1,3 +1,22 @@
+"""
+-I built a thisscript to investigate the mystery items in my dataset. 
+ I had hundreds of artifacts labeled "Unknown," and instead of guessing or checking them one by one, I wrote code to read and analyze their descriptions for me.
+
+Why I Did It:
+
+-I Needed to Find Patterns: I couldn't classify these items because their labels were missing. 
+ By counting the most common words in their titles (like "coffin," "model," or "print"), I could figure out what groups they actually belonged to.
+
+-I Filtered Out Noise: To make the results useful, I programmed the script to ignore boring, common words like "the," "and," or "Egyptian." 
+ This ensured that only the important keywords—the ones that actually describe the object—rose to the top.
+
+-I Needed Evidence: I didn't want to make random guesses. 
+ This script provided the hard data I needed to decide which "Unknown" items were valuable artifacts (to be saved) and which were irrelevant (to be deleted).
+
+-The Result: This analysis gave me a clear 30 word list of keywords, 
+ which revealed exactly how to fix the gaps in my dataset and re-classify the unknown items correctly.
+"""
+
 import os
 import pandas as pd
 from collections import Counter
@@ -20,7 +39,6 @@ def inspect_unclassified():
     # Gather all text from Title and ObjectName
     text_blob = []
     for index, row in unknowns.iterrows():
-        # Add Title and ObjectName to the blob, converting to string to avoid errors
         if pd.notna(row['Title']):
             text_blob.extend(str(row['Title']).lower().split())
         if pd.notna(row['ObjectName']):

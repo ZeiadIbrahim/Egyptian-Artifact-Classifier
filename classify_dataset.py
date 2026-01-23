@@ -1,3 +1,23 @@
+'''
+I designed this script to act as a strict "Quality Control" manager for my dataset. 
+Its job is to read the description of every artifact and decide exactly which category it belongs to, while following a very specific set of rules I created.
+
+Why I Did It:
+
+-I Focused on Shape, Not Material: I realized that classifying items based on what they are made of (like gold or stone) is not accurate. 
+ A statue made of gold is still a statue, not jewelry. 
+ So, I programmed this script to ignore materials and only look for specific object types, like "necklace," "amulet," or "figurine."
+
+-I Removed Irrelevant History: My project is focused on Ancient Egypt. 
+ I added a "Trash Can" list to automatically find and delete items that don't fit this timeline, such as European prints, Islamic manuscripts, or random tools.
+
+-I Enforced Consistency: Instead of relying on the original museum labels, which might be vague, 
+ I forced the script to re-evaluate every single item from scratch using my new, stricter rules.
+
+The Result:
+-This ensures my dataset is purely Ancient Egyptian and that every item is categorized by what it actually is, rather than what it is made of.
+'''
+
 import os
 import pandas as pd
 
@@ -5,20 +25,19 @@ import pandas as pd
 CSV_DIR = os.path.join("dataset", "csv_files")
 CSV_FILES = [f for f in os.listdir(CSV_DIR) if f.endswith(".csv")]
 
-# 1. If these words appear, we mark the row for DELETION.
-# (European prints, random tools, textiles that confuse the AI)
 TRASH_KEYWORDS = [
     "flight into egypt", "print", "engraving", "woodcut", "lithograph", 
     "textile", "tunic", "garment", "sandal", "curtain", "carpet",
-    "lance", "spear", "axe", "knife", "blade", "arrow", "tool"
+    "lance", "spear", "axe", "knife", "blade", "arrow", "tool",
+    "quran", "koran", "manuscript", "folio", "calligraphy"
 ]
 
-# 2. CLASSIFICATION RULES (Updated with your findings)
+# CLASSIFICATION RULES
 KEYWORD_RULES = {
     "Jewellery": [
         "amulet", "necklace", "ring", "bracelet", "earring", "pendant", "bead", 
-        "scarab", "jewelry", "anklet", "collar", "pectoral", "diadem", "gold", "silver",
-        "carnelian", "lapis", "faience inlay", "seal", "finger ring"
+        "scarab", "jewelry", "anklet", "collar", "pectoral", "diadem", 
+        "seal", "finger ring" 
     ],
     "Statuary": [
         "statue", "statuette", "figure", "figurine", "sculpture", "head", "bust", 
@@ -54,7 +73,7 @@ def get_classification(text):
     return "Unclassified"
 
 def process_csvs():
-    print(f"--- Running The Great Filter ---")
+    print(f"--- Running The Strict Filter (Removing 'Gold' Bug) ---")
     
     for filename in CSV_FILES:
         filepath = os.path.join(CSV_DIR, filename)
@@ -68,17 +87,7 @@ def process_csvs():
         )
         
         # Apply the new logic
-        # We RE-EVALUATE "Unknown", "Unclassified", OR anything that looks like it might be trash
         def apply_logic(row):
-            current = str(row['Classification'])
-            # If it's already a solid class, we double check it isn't trash
-            if current in KEYWORD_RULES.keys():
-                for bad in TRASH_KEYWORDS:
-                    if bad in row['SearchText'].lower():
-                        return "DELETE"
-                return current
-            
-            # If it's unknown, we try to classify it
             return get_classification(row['SearchText'])
 
         df['Classification'] = df.apply(apply_logic, axis=1)

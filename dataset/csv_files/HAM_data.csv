@@ -1,6 +1,5 @@
 ID,Source,Title,ObjectName,Medium,Period,Classification,ImageURL
 HAM_214506,Harvard Art Museums,Sculptor's Model of a Lion,Sculpture,Limestone,Late Period,Statuary,https://nrs.harvard.edu/urn-3:HUAM:DDC253379
-HAM_215708,Harvard Art Museums,Leather Binding from a Manuscript,Manuscripts,Leather,Mamluk period,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:CARP02631_dynmc
 HAM_216090,Harvard Art Museums,Bucket,Vessels,Metal,Fatimid period,Pottery,https://nrs.harvard.edu/urn-3:HUAM:31351_dynmc
 HAM_216256,Harvard Art Museums,Statuette of an Official Wearing a Long Kilt,Sculpture,Wood,Middle Kingdom,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC251168_dynmc
 HAM_216463,Harvard Art Museums,Censer,Vessels,Metal,,Pottery,https://nrs.harvard.edu/urn-3:HUAM:CARP01389_dynmc
@@ -261,7 +260,6 @@ HAM_292982,Harvard Art Museums,Winged Scarab,Amulets,Faience,,Jewellery,https://
 HAM_292983,Harvard Art Museums,String of Beads,Amulets,Faience,,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:INV028522_dynmc
 HAM_292984,Harvard Art Museums,Statuette of Bastet,Amulets,Faience,,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:INV028712_dynmc
 HAM_292985,Harvard Art Museums,Statuette of Mut,Amulets,Faience,,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:INV028557_dynmc
-HAM_293192,Harvard Art Museums,One of 14 Squeezes from Egyptian Manuscripts,Rubbings,Paper,,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:INV058505_dynmc
 HAM_293282,Harvard Art Museums,Ba Bird,Sculpture,Wood,,Statuary,https://nrs.harvard.edu/urn-3:HUAM:INV030872_dynmc
 HAM_293283,Harvard Art Museums,Upper Half of a Statuette,Sculpture,Wood,,Statuary,https://nrs.harvard.edu/urn-3:HUAM:INV033678_dynmc
 HAM_299134,Harvard Art Museums,Running Figure,Drawings,,,Statuary,https://nrs.harvard.edu/urn-3:HUAM:INV027794_dynmc
@@ -283,13 +281,13 @@ HAM_303849,Harvard Art Museums,Water Spout in the form of the head of a Black Af
 HAM_303853,Harvard Art Museums,Head of an Ibis,Sculpture,Leaded bronze,Late Period to Ptolemaic,Statuary,https://nrs.harvard.edu/urn-3:HUAM:LEG251399_dynmc
 HAM_303893,Harvard Art Museums,Seated Harpokrates,Sculpture,Leaded bronze,Late Period to Ptolemaic,Statuary,https://nrs.harvard.edu/urn-3:HUAM:LEG251211_dynmc
 HAM_303935,Harvard Art Museums,Head of an Ibis (Thoth),Sculpture,Leaded bronze,Late Period to Ptolemaic,Statuary,https://nrs.harvard.edu/urn-3:HUAM:DDC250930_dynmc
-HAM_303971,Harvard Art Museums,Osiris,Sculpture,"Leaded bronze, gold and electrum inlays",Late Period to Ptolemaic,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC250142_dynmc
+HAM_303971,Harvard Art Museums,Osiris,Sculpture,"Leaded bronze, gold and electrum inlays",Late Period to Ptolemaic,Statuary,https://nrs.harvard.edu/urn-3:HUAM:DDC250142_dynmc
 HAM_303972,Harvard Art Museums,Deity's Beard,Sculpture,Leaded bronze,Late Period to Ptolemaic,Statuary,https://nrs.harvard.edu/urn-3:HUAM:LEG251215_dynmc
 HAM_303973,Harvard Art Museums,Anubis,Sculpture,Leaded bronze,Late Period to Ptolemaic,Statuary,https://nrs.harvard.edu/urn-3:HUAM:72509_dynmc
 HAM_303989,Harvard Art Museums,Rearing Snake on a Coffin,Sculpture,Copper alloy,"Late Period, Dynasty 26",Jewellery,https://nrs.harvard.edu/urn-3:HUAM:LEG251218_dynmc
 HAM_303992,Harvard Art Museums,Standing Osiris,Sculpture,Leaded bronze,Late Period to Ptolemaic,Statuary,https://nrs.harvard.edu/urn-3:HUAM:LEG251406_dynmc
 HAM_303995,Harvard Art Museums,Standing Osiris,Sculpture,Mixed copper alloy,Late Period to Ptolemaic,Statuary,https://nrs.harvard.edu/urn-3:HUAM:LEG251240_dynmc
-HAM_304008,Harvard Art Museums,Lion-Headed Deity with Cobra Headdress,Sculpture,"Leaded bronze, gold inlay","Late Period, Dynasty 26",Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC105100_dynmc
+HAM_304008,Harvard Art Museums,Lion-Headed Deity with Cobra Headdress,Sculpture,"Leaded bronze, gold inlay","Late Period, Dynasty 26",Statuary,https://nrs.harvard.edu/urn-3:HUAM:DDC105100_dynmc
 HAM_304011,Harvard Art Museums,Lion-Headed Deity with Atef Crown,Sculpture,Leaded bronze,"Late Period, Dynasty 26",Statuary,https://nrs.harvard.edu/urn-3:HUAM:DDC105100_dynmc
 HAM_304019,Harvard Art Museums,Sistrum,Musical Instruments,Brass,Roman Imperial period,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:LEG251279_dynmc
 HAM_304039,Harvard Art Museums,Frog,Sculpture,Leaded copper-tin-antimony alloy,Late Period to Ptolemaic,Statuary,https://nrs.harvard.edu/urn-3:HUAM:LEG251210_dynmc
@@ -309,63 +307,7 @@ HAM_312178,Harvard Art Museums,Harpokrates,Sculpture,Leaded bronze,Late Period t
 HAM_312242,Harvard Art Museums,Standing Osiris,Sculpture,Leaded copper-tin-antimony alloy,Late Period to Ptolemaic,Statuary,https://nrs.harvard.edu/urn-3:HUAM:LEG251294_dynmc
 HAM_312251,Harvard Art Museums,Standing Osiris,Sculpture,Bronze,Late Period to Ptolemaic,Statuary,https://nrs.harvard.edu/urn-3:HUAM:LEG251299_dynmc
 HAM_312253,Harvard Art Museums,Falcon,Sculpture,Leaded bronze,Late Period to Ptolemaic,Statuary,https://nrs.harvard.edu/urn-3:HUAM:DDC251611_dynmc
-HAM_323644,Harvard Art Museums,Partial Manuscript of a Qur'an,Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101957_dynmc
-HAM_323646,Harvard Art Museums,Folio 1 from a Fragment of a Qur'an: Sura 4: 24 (recto and verso),Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101957_dynmc
-HAM_323647,Harvard Art Museums,"Folio 2 from a Fragment of a Qur'an: Sura 4: 24-25 (recto), Sura 4: 25 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101958_dynmc
-HAM_323648,Harvard Art Museums,Folio 3 from a Fragment of a Qur'an: Sura 4: 25 (recto and verso),Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101956_dynmc
-HAM_323649,Harvard Art Museums,Folio 4 from a Fragment of a Qur'an: Sura 4: 25 (recto and verso),Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101959_dynmc
-HAM_323650,Harvard Art Museums,"Folio 5 from a Fragment of a Qur'an: Sura 4: 25 (recto), Sura 4: 25-26 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101955_dynmc
-HAM_323651,Harvard Art Museums,"Folio 6 from a Fragment of a Qur'an: Sura 4: 26-27 (recto), Sura 4: 27 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101960_dynmc
-HAM_323652,Harvard Art Museums,"Folio 7 from a Fragment of a Qur'an: Sura 4: 27-end 28 (recto), Sura 4: begin 29 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101953_dynmc
-HAM_323653,Harvard Art Museums,"Folio 8 from a Fragment of a Qur'an: Sura 4: end 29 (recto), Sura 4: begin 30 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101954_dynmc
-HAM_323654,Harvard Art Museums,"Folio 9 from a Fragment of a Qur'an: Sura 4: 30-31 (recto), Sura 4: 31-32 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101961_dynmc
-HAM_323655,Harvard Art Museums,Folio 10 from a Fragment of a Qur'an: Sura 4: 32 (recto and verso),Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101962_dynmc
-HAM_323656,Harvard Art Museums,"Folio 11 from a Fragment of a Qur'an: Sura 4: 33 (recto), Sura 4: 33-34 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101952_dynmc
-HAM_323657,Harvard Art Museums,Folio 12 from a Fragment of a Qur'an: Sura 4: 34 (recto and verso),Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101963_dynmc
-HAM_323658,Harvard Art Museums,Folio 13 from a Fragment of a Qur'an: Sura 4: 102 (recto and verso),Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC102046_dynmc
-HAM_323659,Harvard Art Museums,Folio 14 from a Fragment of a Qur'an: Sura 4: 102 (recto and verso),Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC102047_dynmc
-HAM_323660,Harvard Art Museums,"Folio 15 from a Fragment of a Qur'an: Sura 4: 102 (recto), Sura 4: 102-103 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC102048_dynmc
-HAM_323661,Harvard Art Museums,Folio 16 from a Fragment of a Qur'an: Sura 4: 103 (recto and verso),Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC102049_dynmc
-HAM_323662,Harvard Art Museums,"Folio 17 from a Fragment of a Qur'an: Sura 4: 103-104 (recto), Sura 4: 104 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC102050_dynmc
-HAM_323663,Harvard Art Museums,"Folio 18 from a Fragment of a Qur'an: Sura 4: 104-105 (recto), Sura 4: end 105 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC102051_dynmc
-HAM_323664,Harvard Art Museums,"Folio 19 from a Fragment of a Qur'an: Sura 4: 112 (recto), Sura 4: 112-113 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC102031_dynmc
-HAM_323665,Harvard Art Museums,Folio 20 from a Fragment of a Qur'an: Sura 4: 113 (recto and verso),Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC102029_dynmc
-HAM_323666,Harvard Art Museums,"Folio 21 from a Fragment of a Qur'an: Sura 8: 74 (recto), Sura 8: 74-75 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101966_dynmc
-HAM_323667,Harvard Art Museums,"Folio 22 from a Fragment of a Qur'an: Sura 8: 75 (recto), Sura 8: end 75, title of 76 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC100817_dynmc
-HAM_323668,Harvard Art Museums,"Folio 23 from a Fragment of a Qur'an: Sura 9: begin 1-2 (recto), Sura 9: end 2 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101951_dynmc
-HAM_323669,Harvard Art Museums,Folio 24 from a Fragment of a Qur'an: Sura 9: 3 (recto and verso),Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101950_dynmc
-HAM_323670,Harvard Art Museums,"Folio 25 from a Fragment of a Qur'an: Sura 9: 3-4 (recto), Sura 9: 4 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101965_dynmc
-HAM_323671,Harvard Art Museums,"Folio 26 from a Fragment of a Qur'an: Sura 9: 4-5 (recto), Sura 9: 5 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101964_dynmc
-HAM_323672,Harvard Art Museums,"Folio 27 from a Fragment of a Qur'an: Sura 9: 5 (recto), Sura 9: 5-6 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC100816_dynmc
-HAM_323673,Harvard Art Museums,"Folio 28 from a Fragment of a Qur'an: Sura 9: end 6 (recto), Sura 9: begin 7 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101947_dynmc
-HAM_323674,Harvard Art Museums,"Folio 29 from a Fragment of a Qur'an: Sura 9: 7 (recto), Sura 9: 7-8 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101948_dynmc
-HAM_323675,Harvard Art Museums,"Folio 30 from a Fragment of a Qur'an: Sura 9: 8-9 (recto), Sura 9: end 9 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101949_dynmc
-HAM_323676,Harvard Art Museums,"Folio 31 from a Fragment of a Qur'an: Sura 9: 10 (recto), Sura 9: begin 11 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101967_dynmc
-HAM_323677,Harvard Art Museums,"Folio 32 from a Fragment of a Qur'an: Sura 9: 11-12 (recto), Sura 9: 12 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101968_dynmc
-HAM_323678,Harvard Art Museums,"Folio 33 from a Fragment of a Qur'an: Sura 9: 12-13 (recto), Sura 9: 13 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101969_dynmc
-HAM_323679,Harvard Art Museums,"Folio 34 from a Fragment of a Qur'an: Sura 9: 15-16 (recto), Sura 9: 16 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC102044_dynmc
-HAM_323680,Harvard Art Museums,"Folio 35 from a Fragment of a Qur'an: Sura 9: end 16 (recto), Sura 9 begin 17 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC102045_dynmc
-HAM_323681,Harvard Art Museums,"Folio 36 from a Fragment of a Qur'an: Sura 9: 17-18 (recto), Sura 9: 18 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC102042_dynmc
-HAM_323682,Harvard Art Museums,"Folio 37 from a Fragment of a Qur'an: Sura 9: 18 (recto and verso), End of Hizb 19 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC102043_dynmc
-HAM_323683,Harvard Art Museums,Illuminated Folio (38)  from a Fragment of a Qur'an: Sura 9: 41 (recto and verso),Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:INV158780_dynmc
-HAM_323684,Harvard Art Museums,"Folio 39 from a Fragment of a Qur'an: Sura 9: begin 42 (recto), Sura 9: 42 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101999_dynmc
-HAM_323685,Harvard Art Museums,"Folio 40 from a Fragment of a Qur'an: Sura 9: 42-43 (recto), Sura 9: 43-44 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC102000_dynmc
-HAM_323686,Harvard Art Museums,"Folio 41 from a Fragment of a Qur'an: Sura 9: 44 (recto), Sura 9: 44-45 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC102001_dynmc
-HAM_323687,Harvard Art Museums,"Folio 42 from a Fragment of a Qur'an: Sura 9: 45-46 (recto), Sura 9: 46 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC102002_dynmc
-HAM_323688,Harvard Art Museums,"Folio 43 from a Fragment of a Qur'an: Sura 9: 46-47 (recto), Sura 9: 47 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC102003_dynmc
-HAM_323689,Harvard Art Museums,"Folio 44 from a Fragment of a Qur'an: Sura 9: 47-48 (recto), Sura 9: 48-49 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC102004_dynmc
-HAM_323690,Harvard Art Museums,"Folio 45 from a Fragment of a Qur'an: Sura 9: 49 (recto), Sura 9: 50 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC102005_dynmc
-HAM_323691,Harvard Art Museums,"Folio 46 from a Fragment of a Qur'an: Sura 9: 50-51 (recto), Sura 9: 51-52 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC102006_dynmc
-HAM_323692,Harvard Art Museums,"Folio 47 from a Fragment of a Qur'an: Sura 9: 52 (recto), Sura 9: 52-53 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC102007_dynmc
-HAM_323693,Harvard Art Museums,"Folio 48 from a Fragment of a Qur'an: Sura 9: 53-54 (recto), Sura 9: 54 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC102008_dynmc
-HAM_323694,Harvard Art Museums,"Folio 49 from a Fragment of a Qur'an: Sura 9: 54-55 (recto), Sura 9: 55 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC102009_dynmc
-HAM_323695,Harvard Art Museums,"Folio 50 from a Fragment of a Qur'an: Sura 9: 55-56 (recto), Sura 9: 56-57 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101993_dynmc
-HAM_323696,Harvard Art Museums,"Folio 51 from a Fragment of a Qur'an: Sura 9: 57-58 (recto), Sura 9: end 58 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101994_dynmc
-HAM_323697,Harvard Art Museums,"Folio 52 from a Fragment of a Qur'an: Sura 9: begin 59 (recto), Sura 9: 59-60 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101995_dynmc
-HAM_323698,Harvard Art Museums,Folio 53 from a Fragment of a Qur'an: Sura 9: 60 (recto and verso),Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101996_dynmc
-HAM_323699,Harvard Art Museums,"Folio 54 from a Fragment of a Qur'an: Sura 9: 60-61 (recto), Sura 9: 61 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101997_dynmc
-HAM_323700,Harvard Art Museums,"Folio 55 from a Fragment of a Qur'an: Sura 9: end 61 (recto), Sura 9: begin 62 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101998_dynmc
-HAM_328465,Harvard Art Museums,Twelve Polychrome Lustre Ceramic Sherds,Fragments,"Polychrome lustre ware, painted greenish-gold, mustard and brown",,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:VRS17700_dynmc
+HAM_328465,Harvard Art Museums,Twelve Polychrome Lustre Ceramic Sherds,Fragments,"Polychrome lustre ware, painted greenish-gold, mustard and brown",,Pottery,https://nrs.harvard.edu/urn-3:HUAM:VRS17700_dynmc
 HAM_329948,Harvard Art Museums,Five Lead Glaze Pottery Sherds,Fragments,Terracotta,,Pottery,https://nrs.harvard.edu/urn-3:HUAM:VRS16558_dynmc
 HAM_354559,Harvard Art Museums,Double-sided Hathor Emblem from a Sistrum,Musical Instruments,Faience,Late Period,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:764531
 HAM_72349,Harvard Art Museums,Selket,Sculpture,Leaded bronze,Late Period to Roman,Statuary,https://nrs.harvard.edu/urn-3:HUAM:INV108989_dynmc
@@ -636,8 +578,8 @@ HAM_148447,Harvard Art Museums,Small Standing Male Figure,Sculpture,Faience,Late
 HAM_165243,Harvard Art Museums,Ushabti,Sculpture,Faience,New Kingdom to Third Intermediate Period,Statuary,https://nrs.harvard.edu/urn-3:HUAM:INV030927_dynmc
 HAM_165244,Harvard Art Museums,Head of Horus,Sculpture,"Terracotta, low-fired clay",Late Period to Ptolemaic,Statuary,https://nrs.harvard.edu/urn-3:HUAM:INV031321_dynmc
 HAM_165246,Harvard Art Museums,Head of a Pharaoh,Sculpture,Limestone,"Late Period, Dynasty 30, to Ptolemaic",Statuary,https://nrs.harvard.edu/urn-3:HUAM:INV031188_dynmc
-HAM_167757,Harvard Art Museums,Painted Panel from Wooden Sarcophagus,Paintings,Wood,Roman Imperial period,Reliefs,https://nrs.harvard.edu/urn-3:HUAM:INV027712_dynmc
-HAM_168142,Harvard Art Museums,Apis Bull,Sculpture,"Mixed copper alloy, silver inlay",Late Period to Ptolemaic,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC250098_dynmc
+HAM_167757,Harvard Art Museums,Painted Panel from Wooden Sarcophagus,Paintings,Wood,Roman Imperial period,Statuary,https://nrs.harvard.edu/urn-3:HUAM:INV027712_dynmc
+HAM_168142,Harvard Art Museums,Apis Bull,Sculpture,"Mixed copper alloy, silver inlay",Late Period to Ptolemaic,Statuary,https://nrs.harvard.edu/urn-3:HUAM:DDC250098_dynmc
 HAM_168932,Harvard Art Museums,Seated Cat,Sculpture,Leaded bronze,Late Period,Statuary,https://nrs.harvard.edu/urn-3:HUAM:DDC250926_dynmc
 HAM_168933,Harvard Art Museums,Sistrum Handle with the Head of Hathor,Musical Instruments,Mixed copper alloy,Late Period,Statuary,https://nrs.harvard.edu/urn-3:HUAM:71881_dynmc
 HAM_169508,Harvard Art Museums,Harpokrates,Sculpture,Leaded bronze,Late Period to Ptolemaic,Statuary,https://nrs.harvard.edu/urn-3:HUAM:71873_dynmc
@@ -648,7 +590,7 @@ HAM_183908,Harvard Art Museums,Standing Osiris,Sculpture,Leaded bronze,Late Peri
 HAM_183909,Harvard Art Museums,Seated Harpokrates,Jewelry,Leaded bronze,Late Period to Ptolemaic,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:71765_dynmc
 HAM_184062,Harvard Art Museums,Ushabti,Amulets,Faience,Ptolemaic period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:INV028533_dynmc
 HAM_184161,Harvard Art Museums,Ushabti,Sculpture,Faience,Ptolemaic period,Statuary,https://nrs.harvard.edu/urn-3:HUAM:INV028580_dynmc
-HAM_184430,Harvard Art Museums,Ten-Milliemes Coin of Husayn Kamil of Egypt,Coins,Silver-plate,,Jewellery,https://nrs.harvard.edu/urn-3:huam:COIN18045_dynmc
+HAM_184430,Harvard Art Museums,Ten-Milliemes Coin of Husayn Kamil of Egypt,Coins,Silver-plate,,Pottery,https://nrs.harvard.edu/urn-3:huam:COIN18045_dynmc
 HAM_190469,Harvard Art Museums,Ushabti belonging to an unknown ancient Egyptian person,Sculpture,Clay with paint,"Late Period, Dynasty 25",Statuary,https://nrs.harvard.edu/urn-3:HUAM:INV028517_dynmc
 HAM_190856,Harvard Art Museums,Libation Cup,Vessels,Terracotta,Late Period,Pottery,https://nrs.harvard.edu/urn-3:HUAM:INV052764_dynmc
 HAM_190859,Harvard Art Museums,Overseer ushabti belonging to an unknown ancient Egyptian person,Sculpture,Clay with paint,"Late Period, Dynasty 25",Statuary,https://nrs.harvard.edu/urn-3:HUAM:INV028516_dynmc
@@ -660,18 +602,7 @@ HAM_191935,Harvard Art Museums,Shabti Figurine,Amulets,Faience,,Jewellery,https:
 HAM_191978,Harvard Art Museums,Shabti Figurine,Amulets,Terracotta,New Kingdom,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:INV028537_dynmc
 HAM_292430,Harvard Art Museums,Collection of Beads and Amulets,(not assigned),"Faience, fritware, stone, copper alloy, etc.",Late Period to Roman,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:INV028585_dynmc
 HAM_11341,Harvard Art Museums,"Squeeze from a Relief of a Ramesside King with ""Blue Crown,"" Crook, and Flail",Rubbings,Paper,,Reliefs,https://nrs.harvard.edu/urn-3:HUAM:INV058503_dynmc
-HAM_11342,Harvard Art Museums,One of 14 Squeezes from Egyptian Manuscripts,Rubbings,Paper,,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:INV058522_dynmc
-HAM_11343,Harvard Art Museums,One of 14 Squeezes from Egyptian Manuscripts,Rubbings,Paper,,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:INV058529_dynmc
-HAM_11365,Harvard Art Museums,One of 14 Squeezes from Egyptian Manuscripts,Rubbings,Paper,,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:INV058521_dynmc
-HAM_11374,Harvard Art Museums,One of 14 Squeezes from Egyptian Manuscripts,Rubbings,Paper,,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:INV058511_dynmc
-HAM_11375,Harvard Art Museums,One of 14 Squeezes from Egyptian Manuscripts,Rubbings,Paper,,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:INV058517_dynmc
-HAM_11376,Harvard Art Museums,One of 14 Squeezes from Egyptian Manuscripts,Rubbings,Paper,,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:INV058518_dynmc
-HAM_11411,Harvard Art Museums,One of 14 Squeezes from Egyptian Manuscripts,Rubbings,Paper,,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:INV058519_dynmc
-HAM_11412,Harvard Art Museums,One of 14 Squeezes from Egyptian Manuscripts,Rubbings,Paper,,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:INV058520_dynmc
-HAM_11413,Harvard Art Museums,One of 14 Squeezes from Egyptian Manuscripts,Rubbings,Paper,,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:INV058523_dynmc
 HAM_11414,Harvard Art Museums,Squeeze of a relief of Ptolemy IV from the Temple of Hathor at Deir el-Medina,Rubbings,Paper,,Reliefs,https://nrs.harvard.edu/urn-3:HUAM:INV058524_dynmc
-HAM_11415,Harvard Art Museums,One of 14 Squeezes from Egyptian Manuscripts,Rubbings,Paper,,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:INV058525_dynmc
-HAM_11416,Harvard Art Museums,One of 14 Squeezes from Egyptian Manuscripts,Rubbings,Paper,,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:INV058526_dynmc
 HAM_58067,Harvard Art Museums,Piece of a Pair of Bone Clappers,Ritual Implements,Bone,New Kingdom,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:INV028224_dynmc
 HAM_212072,Harvard Art Museums,Head of a Youth,Sculpture,Faience,"Late Period, Dynasty 26",Statuary,https://nrs.harvard.edu/urn-3:HUAM:VRS44037_dynmc
 HAM_367944,Harvard Art Museums,Ushabti of Nesbanebdjed,Sculpture,Faience,"Late Period, Dynasty 30, to Ptolemaic",Statuary,https://nrs.harvard.edu/urn-3:HUAM:772078
