@@ -1,0 +1,17 @@
+# --- IGNORE DATA (Too big for GitHub) ---
+dataset/images/
+dataset/raw_images/
+dataset/sorted_data/
+dataset/ready_for_training/
+dataset/*.csv
+
+# --- IGNORE SYSTEM FILES ---
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# --- IGNORE MODELS ---
+*.keras
+*.h5
