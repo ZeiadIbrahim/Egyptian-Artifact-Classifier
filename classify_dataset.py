@@ -3,88 +3,98 @@ import pandas as pd
 
 # --- CONFIGURATION ---
 CSV_DIR = os.path.join("dataset", "csv_files")
+CSV_FILES = [f for f in os.listdir(CSV_DIR) if f.endswith(".csv")]
 
-# The Logic: If a keyword (left) appears in the metadata, assign the Class (right)
-# Priority: Top matches are checked first.
+# 1. If these words appear, we mark the row for DELETION.
+# (European prints, random tools, textiles that confuse the AI)
+TRASH_KEYWORDS = [
+    "flight into egypt", "print", "engraving", "woodcut", "lithograph", 
+    "textile", "tunic", "garment", "sandal", "curtain", "carpet",
+    "lance", "spear", "axe", "knife", "blade", "arrow", "tool"
+]
+
+# 2. CLASSIFICATION RULES (Updated with your findings)
 KEYWORD_RULES = {
     "Jewellery": [
         "amulet", "necklace", "ring", "bracelet", "earring", "pendant", "bead", 
         "scarab", "jewelry", "anklet", "collar", "pectoral", "diadem", "gold", "silver",
-        "carnelian", "lapis", "faience inlay"
+        "carnelian", "lapis", "faience inlay", "seal", "finger ring"
     ],
     "Statuary": [
         "statue", "statuette", "figure", "figurine", "sculpture", "head", "bust", 
-        "sphinx", "torso", "ushabti", "shabti", "shawabty", "idol", "bronze"
+        "sphinx", "torso", "ushabti", "shabti", "shawabty", "idol", "bronze",
+        "coffin", "sarcophagus", "mask", "cartonnage", "mummy case", "model", "boat"
     ],
     "Pottery": [
         "vessel", "jar", "pot", "cup", "bowl", "dish", "vase", "amphora", "plate", 
         "jug", "beaker", "flask", "canopic", "bottle", "ceramic", "terracotta", 
-        "clay", "earthenware", "faience vessel", "pottery"
+        "clay", "earthenware", "faience vessel", "pottery", "chalice"
     ],
     "Reliefs": [
         "relief", "stela", "stele", "plaque", "frieze", "talatat", "wall fragment", 
         "block", "tomb relief", "painting", "ostracon", "ostraca", "fresco", "mural", 
-        "limestone fragment"
+        "limestone fragment", "facsimile", "papyrus", "drawing", "copy"
     ]
 }
 
-def classify_text(text):
-    if not isinstance(text, str):
-        return None
+def get_classification(text):
+    if not isinstance(text, str): return "Unclassified"
     text = text.lower()
     
+    # Check for Trash first
+    for bad_word in TRASH_KEYWORDS:
+        if bad_word in text:
+            return "DELETE"
+            
+    # Check for Good Classes
     for category, keywords in KEYWORD_RULES.items():
         for word in keywords:
-            # We look for the word as a substring
             if word in text:
                 return category
     return "Unclassified"
 
 def process_csvs():
-    # Get all CSV files
-    files = [f for f in os.listdir(CSV_DIR) if f.endswith(".csv")]
+    print(f"--- Running The Great Filter ---")
     
-    print(f"--- Auto-Classifying {len(files)} CSV Files ---")
-    
-    for filename in files:
+    for filename in CSV_FILES:
         filepath = os.path.join(CSV_DIR, filename)
         df = pd.read_csv(filepath)
         
-        # Only process if we have the necessary columns
-        if 'Classification' not in df.columns:
-            df['Classification'] = "Unknown"
-            
-        initial_unknowns = len(df[df['Classification'].isin(["Unknown", "Unclassified"])])
-        
-        # We combine text columns to search broadly
-        # Title + ObjectName + Medium
+        # Combine text for searching
         df['SearchText'] = (
             df['Title'].fillna('') + " " + 
             df['ObjectName'].fillna('') + " " + 
             df['Medium'].fillna('')
         )
         
-        # Apply the logic
-        # If it's ALREADY classified (e.g. from Chicago), we keep it.
-        # We only update if it is "Unknown" or "Unclassified" or "nan".
-        def apply_classification(row):
+        # Apply the new logic
+        # We RE-EVALUATE "Unknown", "Unclassified", OR anything that looks like it might be trash
+        def apply_logic(row):
             current = str(row['Classification'])
-            if current not in ["Unknown", "Unclassified", "nan"]:
+            # If it's already a solid class, we double check it isn't trash
+            if current in KEYWORD_RULES.keys():
+                for bad in TRASH_KEYWORDS:
+                    if bad in row['SearchText'].lower():
+                        return "DELETE"
                 return current
-            return classify_text(row['SearchText'])
+            
+            # If it's unknown, we try to classify it
+            return get_classification(row['SearchText'])
 
-        df['Classification'] = df.apply(apply_classification, axis=1)
+        df['Classification'] = df.apply(apply_logic, axis=1)
         
-        # Clean up
+        # REMOVE the rows marked DELETE
+        initial_count = len(df)
+        df = df[df['Classification'] != "DELETE"]
+        deleted_count = initial_count - len(df)
+        
+        # Save
         df.drop(columns=['SearchText'], inplace=True)
-        
-        # Stats
-        final_unknowns = len(df[df['Classification'] == "Unclassified"])
-        fixed = initial_unknowns - final_unknowns
-        
-        # Save back to the SAME file
         df.to_csv(filepath, index=False)
-        print(f"[{filename}] Fixed: {fixed} | Remaining Unknown: {final_unknowns}")
+        
+        print(f"[{filename}]")
+        print(f"  - Purged (Trash): {deleted_count}")
+        print(f"  - Remaining:      {len(df)}")
 
 if __name__ == "__main__":
     process_csvs()

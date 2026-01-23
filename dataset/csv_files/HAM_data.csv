@@ -1,11 +1,5 @@
 ID,Source,Title,ObjectName,Medium,Period,Classification,ImageURL
 HAM_214506,Harvard Art Museums,Sculptor's Model of a Lion,Sculpture,Limestone,Late Period,Statuary,https://nrs.harvard.edu/urn-3:HUAM:DDC253379
-HAM_214550,Harvard Art Museums,Textile,Textile Arts,,,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:INV050248_dynmc
-HAM_214848,Harvard Art Museums,Mummy Wrapping: Figure of a Woman,Textile Arts,Ink on even weave tabby linen,Ptolemaic period,Statuary,https://nrs.harvard.edu/urn-3:HUAM:CARP05569_dynmc
-HAM_215199,Harvard Art Museums,Fragment of a Clavus (tunic band): Figure and Floral Design,Textile Arts,"Wool and linen, tapestry weave","Byzantine period, Early",Statuary,https://nrs.harvard.edu/urn-3:HUAM:761864
-HAM_215292,Harvard Art Museums,Fragment of Akhmim Silk,Textile Arts,Silk,Islamic period,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:CARP05561_dynmc
-HAM_215295,Harvard Art Museums,Clavi (tunic bands): Leaves and Palmettes,Textile Arts,"Wool and linen, tapestry weave","Byzantine period, Early",Unclassified,https://nrs.harvard.edu/urn-3:HUAM:761861
-HAM_215515,Harvard Art Museums,Clavus (tunic band): Dionysos (Bacchus),Textile Arts,"Wool and linen, tapestry weave","Byzantine period, Early",Unclassified,https://nrs.harvard.edu/urn-3:HUAM:761862
 HAM_215708,Harvard Art Museums,Leather Binding from a Manuscript,Manuscripts,Leather,Mamluk period,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:CARP02631_dynmc
 HAM_216090,Harvard Art Museums,Bucket,Vessels,Metal,Fatimid period,Pottery,https://nrs.harvard.edu/urn-3:HUAM:31351_dynmc
 HAM_216256,Harvard Art Museums,Statuette of an Official Wearing a Long Kilt,Sculpture,Wood,Middle Kingdom,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC251168_dynmc
@@ -49,7 +43,6 @@ HAM_288644,Harvard Art Museums,Head of a Lioness,Sculpture,Granite,Ptolemaic per
 HAM_288647,Harvard Art Museums,Small Round-bottomed Jar [alabastron?],Vessels,Alabaster,,Pottery,https://nrs.harvard.edu/urn-3:HUAM:VRS12289_dynmc
 HAM_288665,Harvard Art Museums,PHALLIC HARPIST,Sculpture,,,Statuary,https://nrs.harvard.edu/urn-3:HUAM:INV108298_dynmc
 HAM_288681,Harvard Art Museums,"NECKLACE WITH CENTRAL PENDANT OF EGYPTIAN GOD, HORUS",Jewelry,Faience,"New Kingdom, Dynasty 18",Jewellery,https://nrs.harvard.edu/urn-3:HUAM:VRS40849_dynmc
-HAM_288791,Harvard Art Museums,Hanging Decorated with Crosses and Floral Motifs,Textile Arts,"Cotton, indigo and red pigment, plain weave, Z spun","Byzantine period, Early",Unclassified,https://nrs.harvard.edu/urn-3:HUAM:756256
 HAM_288847,Harvard Art Museums,Head of a Man,Sculpture,"Limestone with polychrome on the head, face, neck and eyes",New Kingdom,Statuary,https://nrs.harvard.edu/urn-3:HUAM:VRS12030_dynmc
 HAM_288874,Harvard Art Museums,Sunken Relief Fragment of Two Heads Facing Left,Sculpture,Sandstone,"New Kingdom, Dynasty 18",Statuary,https://nrs.harvard.edu/urn-3:HUAM:VRS11797_dynmc
 HAM_288884,Harvard Art Museums,Relief Fragment: Court Officials from a Royal Procession,Sculpture,Painted limestone,"Old Kingdom, Dynasty 4",Statuary,https://nrs.harvard.edu/urn-3:HUAM:VRS44607_dynmc
@@ -78,7 +71,6 @@ HAM_289016,Harvard Art Museums,GLAZED VASE FRAGMENT,Fragments,Terracotta,,Potter
 HAM_289019,Harvard Art Museums,GLAZED VASE FRAGMENT,Fragments,Pottery,,Pottery,https://nrs.harvard.edu/urn-3:HUAM:VRS40399_dynmc
 HAM_289079,Harvard Art Museums,Miniature Head,Sculpture,Brown stone,Late Period,Statuary,https://nrs.harvard.edu/urn-3:HUAM:INV108170_dynmc
 HAM_289108,Harvard Art Museums,REDWARE FRAGMENT,Fragments,,,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:INV052067_dynmc
-HAM_289131,Harvard Art Museums,Stamp with Inscription,Artists' Tools,Wood,,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:CARP01398_dynmc
 HAM_289165,Harvard Art Museums,Kneeling Figure,Sculpture,Faience,,Statuary,https://nrs.harvard.edu/urn-3:HUAM:INV031022_dynmc
 HAM_289184,Harvard Art Museums,MOLD OF A BIRD,Sculpture,,,Statuary,https://nrs.harvard.edu/urn-3:HUAM:INV027604_dynmc
 HAM_289212,Harvard Art Museums,Kapefenhamontu Presenting an Image of Osiris,Sculpture,Siltstone,Late Period to Ptolemaic,Statuary,https://nrs.harvard.edu/urn-3:HUAM:DDC253688
@@ -317,7 +309,6 @@ HAM_312178,Harvard Art Museums,Harpokrates,Sculpture,Leaded bronze,Late Period t
 HAM_312242,Harvard Art Museums,Standing Osiris,Sculpture,Leaded copper-tin-antimony alloy,Late Period to Ptolemaic,Statuary,https://nrs.harvard.edu/urn-3:HUAM:LEG251294_dynmc
 HAM_312251,Harvard Art Museums,Standing Osiris,Sculpture,Bronze,Late Period to Ptolemaic,Statuary,https://nrs.harvard.edu/urn-3:HUAM:LEG251299_dynmc
 HAM_312253,Harvard Art Museums,Falcon,Sculpture,Leaded bronze,Late Period to Ptolemaic,Statuary,https://nrs.harvard.edu/urn-3:HUAM:DDC251611_dynmc
-HAM_315197,Harvard Art Museums,Square with Figures and Spotted Animals,Textile Arts,"Wool and linen, tapestry weave",Byzantine period,Statuary,https://nrs.harvard.edu/urn-3:HUAM:763794
 HAM_323644,Harvard Art Museums,Partial Manuscript of a Qur'an,Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101957_dynmc
 HAM_323646,Harvard Art Museums,Folio 1 from a Fragment of a Qur'an: Sura 4: 24 (recto and verso),Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101957_dynmc
 HAM_323647,Harvard Art Museums,"Folio 2 from a Fragment of a Qur'an: Sura 4: 24-25 (recto), Sura 4: 25 (verso)",Manuscripts,"Ink, opaque watercolor and gold on paper",Mamluk period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC101958_dynmc
@@ -379,7 +370,6 @@ HAM_329948,Harvard Art Museums,Five Lead Glaze Pottery Sherds,Fragments,Terracot
 HAM_354559,Harvard Art Museums,Double-sided Hathor Emblem from a Sistrum,Musical Instruments,Faience,Late Period,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:764531
 HAM_72349,Harvard Art Museums,Selket,Sculpture,Leaded bronze,Late Period to Roman,Statuary,https://nrs.harvard.edu/urn-3:HUAM:INV108989_dynmc
 HAM_72434,Harvard Art Museums,"Egyptian Alabastron, with Two Lug Handles",Vessels,Alabaster,"New Kingdom, Dynasty 18",Pottery,https://nrs.harvard.edu/urn-3:HUAM:INV108207_dynmc
-HAM_76434,Harvard Art Museums,Coptic Textile,Textile Arts,"Linen and wool, tapestry woven",Byzantine period,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:CARP06697_dynmc
 HAM_92353,Harvard Art Museums,Lid for a canopic jar in the shape of a human head,Sculpture,Limestone,Ptolemaic period to Roman Imperial,Statuary,https://nrs.harvard.edu/urn-3:HUAM:CARP09520_dynmc
 HAM_98765,Harvard Art Museums,Sherd,Fragments,Ceramic,,Pottery,https://nrs.harvard.edu/urn-3:HUAM:CARP01542_dynmc
 HAM_98766,Harvard Art Museums,Sherd,Fragments,Ceramic,,Pottery,https://nrs.harvard.edu/urn-3:HUAM:CARP01499_dynmc
@@ -635,13 +625,6 @@ HAM_99528,Harvard Art Museums,Sherd,Fragments,Ceramic,,Pottery,https://nrs.harva
 HAM_99529,Harvard Art Museums,Sherd,Fragments,Ceramic,,Pottery,https://nrs.harvard.edu/urn-3:HUAM:CARP01683_dynmc
 HAM_99530,Harvard Art Museums,Sherd,Fragments,Ceramic,,Pottery,https://nrs.harvard.edu/urn-3:HUAM:CARP01700_dynmc
 HAM_99531,Harvard Art Museums,Sherd,Fragments,Ceramic,,Pottery,https://nrs.harvard.edu/urn-3:HUAM:CARP01687_dynmc
-HAM_99801,Harvard Art Museums,Band with Stylized Figures and Riders,Textile Arts,"Wool and linen, tapestry weave",Byzantine period,Statuary,https://nrs.harvard.edu/urn-3:HUAM:763792
-HAM_99828,Harvard Art Museums,Square with Sea Monsters,Textile Arts,"Tapestry, linen and wool",Byzantine period,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:CARP05604_dynmc
-HAM_99858,Harvard Art Museums,Fragment with Flowers and Putti,Textile Arts,Fiber,Byzantine period,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:CARP06695_dynmc
-HAM_99860,Harvard Art Museums,Coptic Textile,Textile Arts,Wool,Byzantine period,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:CARP06694_dynmc
-HAM_99994,Harvard Art Museums,Band with Fringe,Textile Arts,"Linen and wool, tapestry woven",Byzantine period,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:CARP06692_dynmc
-HAM_100038,Harvard Art Museums,Fragment with Scenes in Roundels,Textile Arts,"Linen and wool, tapestry woven",Byzantine period,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:CARP05616_dynmc
-HAM_100122,Harvard Art Museums,Fragment with Floral Diaper Pattern,Textile Arts,"Linen and wool, tapestry woven",Byzantine period,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:CARP06691_dynmc
 HAM_117305,Harvard Art Museums,Gold Uraeus,Amulets,Gold,,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:INV028923_dynmc
 HAM_117306,Harvard Art Museums,Sistrum,Musical Instruments,Copper alloy,Late Period,Unclassified,https://nrs.harvard.edu/urn-3:HUAM:INV029661_dynmc
 HAM_117323,Harvard Art Museums,Egitto-Phoenician Ivory Head of a Duck,Sculpture,Ivory,,Statuary,https://nrs.harvard.edu/urn-3:HUAM:INV028377_dynmc
@@ -659,9 +642,6 @@ HAM_168932,Harvard Art Museums,Seated Cat,Sculpture,Leaded bronze,Late Period,St
 HAM_168933,Harvard Art Museums,Sistrum Handle with the Head of Hathor,Musical Instruments,Mixed copper alloy,Late Period,Statuary,https://nrs.harvard.edu/urn-3:HUAM:71881_dynmc
 HAM_169508,Harvard Art Museums,Harpokrates,Sculpture,Leaded bronze,Late Period to Ptolemaic,Statuary,https://nrs.harvard.edu/urn-3:HUAM:71873_dynmc
 HAM_169893,Harvard Art Museums,Small Kneeling Figure,Sculpture,Leaded bronze,Late Period to Ptolemaic,Statuary,https://nrs.harvard.edu/urn-3:HUAM:71886_dynmc
-HAM_174380,Harvard Art Museums,Tunic Front: Abstract Figures and Animals,Textile Arts,"Wool and linen, tapestry weave",Byzantine period,Statuary,https://nrs.harvard.edu/urn-3:HUAM:764468
-HAM_176959,Harvard Art Museums,Jewelry Casting Mold:  Egyptian Dionysos and Harpokrates as Herakles,Artists' Tools,Black steatite or schist,Hellenistic period to Early Roman Imperial,Jewellery,https://nrs.harvard.edu/urn-3:HUAM:DDC107953_dynmc
-HAM_179106,Harvard Art Museums,Textile Fragment: Nereid with Dancers and Charioteers,Textile Arts,Wool,"Byzantine period, Early",Unclassified,https://nrs.harvard.edu/urn-3:HUAM:756841
 HAM_182300,Harvard Art Museums,Osiris,Sculpture,Bronze,Late Period,Statuary,https://nrs.harvard.edu/urn-3:HUAM:INV033030_dynmc
 HAM_183828,Harvard Art Museums,Hawk,Sculpture,Wood,,Statuary,https://nrs.harvard.edu/urn-3:HUAM:INV030867_dynmc
 HAM_183908,Harvard Art Museums,Standing Osiris,Sculpture,Leaded bronze,Late Period to Ptolemaic,Statuary,https://nrs.harvard.edu/urn-3:HUAM:71763_dynmc
