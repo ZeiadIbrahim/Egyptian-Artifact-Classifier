@@ -4,15 +4,9 @@ __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
-
-# --- IGNORE DATA (Crucial!) ---
 dataset/images/
 dataset/processed/
 dataset/csv_files/*.csv
-# Keep master_data.csv if it's under 100MB, otherwise ignore it too:
-# dataset/csv_files/master_data.csv
-
-# --- IGNORE MODELS (Future proofing) ---
 *.pth
 *.pt
 *.keras
