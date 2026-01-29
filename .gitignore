@@ -1,17 +1,19 @@
-# --- IGNORE DATA (Too big for GitHub) ---
-dataset/images/
-dataset/raw_images/
-dataset/sorted_data/
-dataset/ready_for_training/
-dataset/*.csv
-
-# --- IGNORE SYSTEM FILES ---
+# --- IGNORE PYTHON SYSTEM FILES ---
 venv/
 __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
 
-# --- IGNORE MODELS ---
+# --- IGNORE DATA (Crucial!) ---
+dataset/images/
+dataset/processed/
+dataset/csv_files/*.csv
+# Keep master_data.csv if it's under 100MB, otherwise ignore it too:
+# dataset/csv_files/master_data.csv
+
+# --- IGNORE MODELS (Future proofing) ---
+*.pth
+*.pt
 *.keras
 *.h5

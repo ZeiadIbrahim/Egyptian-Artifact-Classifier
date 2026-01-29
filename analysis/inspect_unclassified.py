@@ -7,7 +7,7 @@ Why I Did It:
 -I Needed to Find Patterns: I couldn't classify these items because their labels were missing. 
  By counting the most common words in their titles (like "coffin," "model," or "print"), I could figure out what groups they actually belonged to.
 
--I Filtered Out Noise: To make the results useful, I programmed the script to ignore boring, common words like "the," "and," or "Egyptian." 
+-I Filtered Out Noise: To make the results useful, I programmed the script to ignore common words like "the," "and," or "Egyptian." 
  This ensured that only the important keywords—the ones that actually describe the object—rose to the top.
 
 -I Needed Evidence: I didn't want to make random guesses. 
