@@ -12,11 +12,11 @@ OUTPUT_DIR = os.path.join("dataset", "processed")
 
 # Image Settings
 IMG_SIZE = (224, 224) 
-CLASSES = ["Jewellery", "Pottery", "Statuary", "Reliefs", "Unclassified"]
+CLASSES = ["Jewellery", "Pottery", "Statuary", "Reliefs"]
 
 # Augmentation Settings
 TARGET_TRAIN_COUNT = 1000
-CLASSES_TO_AUGMENT = ["Jewellery", "Pottery", "Statuary", "Reliefs"] # Skip Unclassified
+CLASSES_TO_AUGMENT = ["Jewellery", "Pottery", "Statuary", "Reliefs"]
 
 # Split Ratios
 TRAIN_RATIO = 0.8
