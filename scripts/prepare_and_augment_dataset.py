@@ -12,11 +12,11 @@ OUTPUT_DIR = os.path.join("dataset", "processed")
 
 # Image Settings
 IMG_SIZE = (224, 224) 
-CLASSES = ["Jewellery", "Pottery", "Statuary", "Reliefs"]
+CLASSES = ["Jewellery", "Pottery", "Statuary", "Reliefs", "Unclassified"]
 
 # Augmentation Settings
 TARGET_TRAIN_COUNT = 1000
-CLASSES_TO_AUGMENT = ["Jewellery", "Pottery", "Statuary", "Reliefs"]
+CLASSES_TO_AUGMENT = ["Jewellery", "Pottery", "Statuary", "Reliefs", "Unclassified"]
 
 # Split Ratios
 TRAIN_RATIO = 0.8
@@ -133,6 +133,6 @@ def step_2_augment_training():
         pbar.close()
 
 if __name__ == "__main__":
-    step_1_process_and_split()
+    # step_1_process_and_split()
     step_2_augment_training()
     print("\n--- DATASET READY FOR TRAINING ---")

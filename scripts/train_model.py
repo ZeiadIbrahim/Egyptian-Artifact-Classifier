@@ -9,10 +9,10 @@ from tqdm import tqdm
 
 # --- CONFIGURATION ---
 DATA_DIR = os.path.join("dataset", "processed")
-MODEL_SAVE_PATH = "dirty_model.pth"
-BATCH_SIZE = 16          # Reduced batch size for better generalization
-LEARNING_RATE = 0.0001   # Low learning rate for fine-tuning
-EPOCHS = 10              # Enough time to converge
+MODEL_SAVE_PATH = "optimized_dirty_model.pth"
+BATCH_SIZE = 16
+LEARNING_RATE = 0.0001
+EPOCHS = 10
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 def get_data_loaders():
